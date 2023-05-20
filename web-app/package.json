@@ -1,0 +1,74 @@
+{
+  "name": "web-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://cold-shape-34563.botics.co",
+  "dependencies": {
+    "@emotion/css": "^11.10.5",
+    "@ramonak/react-progress-bar": "^5.0.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "add": "^2.0.6",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.2",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "emoji-picker-react": "^4.4.5",
+    "formik": "^2.2.9",
+    "html-react-parser": "^3.0.4",
+    "immutability-helper": "^3.1.1",
+    "is-hotkey": "^0.2.0",
+    "moment": "^2.29.4",
+    "namor": "^2.0.4",
+    "primeicons": "^6.0.1",
+    "primereact": "^8.7.1",
+    "pubnub": "^7.2.0",
+    "pubnub-react": "^3.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-color": "^2.19.3",
+    "react-csv": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-dropzone": "^14.2.3",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.4.0",
+    "react-spring": "^8.0.27",
+    "react-table": "^7.8.0",
+    "slate": "^0.86.0",
+    "slate-history": "^0.86.0",
+    "slate-react": "^0.86.0",
+    "styled-components": "^5.3.5",
+    "toasted-notes": "^3.2.0",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp -R build/* ../web_build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
